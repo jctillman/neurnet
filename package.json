@@ -1,0 +1,18 @@
+{
+  "name": "js-neurnet",
+  "version": "0.0.1",
+  "description": "Very basic neural net implementation in JS, allowing a variety of activation functions and sparsely connected layers in case of visual input. ",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha test/specs.js"
+  },
+  "author": "James Tillman <james.tillman.7@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.0.0",
+    "lodash": "^3.10.0"
+  }
+}
